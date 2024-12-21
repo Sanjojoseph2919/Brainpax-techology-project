@@ -1,0 +1,72 @@
+ <section id="li">
+      <
+
+      <div id="bann">
+
+       <h1>Student list</h1>
+
+      </div>
+    </section>
+
+    <section id="baba">
+   <div id="add">
+
+    <h2>ADD Student</h2>
+    <input type="submit" value="view">
+    <input type="submit" value="Edit">
+    <input type="submit" value="Delete">
+
+   </div>
+
+
+   </section>
+
+   <ul class="list-group">
+    <div class="list-group ">
+
+      <li class="list-group-item " >
+      <!-- <div class="btn-group">  -->
+        <div class="btn-group">AARON 
+          <div class="">
+            <a href="#" class="btn btn-primary ">View</a>
+            <a href="#" class="btn btn-primary">Edit</a>
+            <a href="#" class="btn btn-primary">Delete</a> 
+          </div>
+        </div>
+        </li>
+
+      <!-- <div class="btn-group"> -->
+        <!-- <a href="#" class="btn btn-primary ">View</a>
+        <a href="#" class="btn btn-primary">Edit</a>
+        <a href="#" class="btn btn-primary">Delete</a> -->
+      <!-- </div> -->
+
+   
+
+     <li class="list-group-item">SANJO</li>
+
+     <div class="btn-group">
+      <a href="#" class="btn btn-primary ">View</a>
+      <a href="#" class="btn btn-primary">Edit</a>
+      <a href="#" class="btn btn-primary">Delete</a>
+    </div>
+
+      <li class="list-group-item">JOSEPH</li>
+
+      <div class="btn-group">
+        <a href="#" class="btn btn-primary ">View</a>
+        <a href="#" class="btn btn-primary">Edit</a>
+        <a href="#" class="btn btn-primary">Delete</a>
+      </div>
+
+      <li class="list-group-item">RICHU</li>
+
+      <div class="btn-group">
+        <a href="#" class="btn btn-primary ">View</a>
+        <a href="#" class="btn btn-primary">Edit</a>
+        <a href="#" class="btn btn-primary">Delete</a>
+      </div>
+
+    
+
+  </ul>

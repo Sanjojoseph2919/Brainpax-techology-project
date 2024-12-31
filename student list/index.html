@@ -32,7 +32,7 @@
                   
                 <button  href="#" class="btn btn-primary" style=" margin-left: 9rem "  type="button">View</button>
                 <button href="#" class="btn btn-primary" type="button">Edit</button>
-                <button  href="#" class="btn btn-primary" type="button">Delete</button>
+                <button  id="Delete" href="#" class="btn btn-primary" type="button">Delete</button>
                    
               </li>
             </ul>
@@ -50,7 +50,7 @@
                   
                 <button  href="#" class="btn btn-primary" style=" margin-left: 9rem "  type="button">View</button>
                 <button href="#" class="btn btn-primary" type="button">Edit</button>
-                <button  href="#" class="btn btn-primary" type="button">Delete</button>
+                <button  id="Delete" href="#" class="btn btn-primary" type="button">Delete</button>
                    
               </li>
             </ul>
@@ -68,7 +68,7 @@
                   
                 <button  href="#" class="btn btn-primary" style=" margin-left: 9rem "  type="button">View</button>
                 <button href="#" class="btn btn-primary" type="button">Edit</button>
-                <button  href="#" class="btn btn-primary" type="button">Delete</button>
+                <button  id="Delete" href="#" class="btn btn-primary" type="button">Delete</button>
                    
               </li>
             </ul>
@@ -86,7 +86,7 @@
                   
                    <button  href="#" class="btn btn-primary" style=" margin-left: 9rem "  type="button">View</button>
                    <button href="#" class="btn btn-primary" type="button">Edit</button>
-                   <button  href="#" class="btn btn-primary" type="button">Delete</button>
+                   <button  id="Delete" href="#" class="btn btn-primary" type="button">Delete</button>
                    
               </li>
             </ul>
@@ -120,6 +120,28 @@
      
     </div>
   </div>
+
+  <!-- js -->
+  <input id="numb">
+
+  <!-- <button type="button" onclick="myFunction()">Submit</button> -->
+  
+  <p id="Delete"></p>
+  
+  <script>
+  function myFunction() {
+    
+    let x = document.getElementById("numb").value;
+    
+    let text;
+    if (isNaN(x) || x < 1 || x > 1000) {
+      text = " Not valid";
+    } else {
+      text = "You id has Deleted";
+    }
+    document.getElementById("demo").innerHTML = text;
+  }
+  </script>
 
 
     
